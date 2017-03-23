@@ -40,3 +40,5 @@ projects:
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
+
+Encoding: UTF-8
