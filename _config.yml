@@ -14,7 +14,7 @@
 # please change the belowing settings to your own.
 
 # Site settings
-title: Py的个人博客
+title: PY的个人博客
 description: "A blog about PY ..."
 baseurl: ""
 url: "https://pppppy.github.io" 
