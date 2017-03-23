@@ -43,4 +43,4 @@ exclude: ['package.json', 'src', 'node_modules']
 
 Encoding: UTF-8
 
-highlighter: pygments
+highlighter: rouge
