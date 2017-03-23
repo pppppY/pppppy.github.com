@@ -1,15 +1,24 @@
----
-layout: compress
----
 <!DOCTYPE html>
 <html>
-    {% include head.html %}
-    <body>
-        {% include svg-icons.html %}
-        {% include header-default.html %}
-            <main role="main" class="content">
-                {{ content }}
-            </main>
-        {% include scripts.html %}
-    </body>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+
+    <!-- main articles -->
+    {{ content }}
+    <!-- article ends -->
+  </div>
+  <!-- side -->
+  {% include sider.html %}
+
+</div>
+
+    {% include footer.html %}
+
+  </body>
+
 </html>

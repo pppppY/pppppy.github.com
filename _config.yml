@@ -1,10 +1,23 @@
+# Welcome to Jekyll and Thank you for using Renge as your theme.
+
+# Renge is designed by Junchao (www.junchaowang.com) and inspired by amination
+# “のんのんびより” and named by one of the Characters "Renge Miyauchi (宮内 れんげ Miyauchi Renge)".
+# If you have any questions, you can reach me via https://github.com/billyfish152 by submitting
+# an issue or via email billyfish152@gmail.com.
+
+# Please install jekyll-paginate before build it.
+# sudo gem install jekyll-paginate in linux or MacOS.
+# gem install jekyll-paginate in Windows.
+
+# Renge supports categories and tags, which are defined in each of your posts.
+# Also, You can add or removed links in /_includes/sider.html .
+# please change the belowing settings to your own.
+
 # Site settings
-title: PY's Blog
+title: Py的个人博客
 description: "A blog about PY ..."
-baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
+baseurl: ""
 url: "https://pppppy.github.io" 
-# for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
-# User settings
 username: PY
 user_title: PY - JUST FOR FUN~
 email: pengyang813@foxmail.com
@@ -12,35 +25,6 @@ github_username:  pppppY
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
-permalink: /:categories/:title
-
-
-# html minify
-compress_html:
-  clippings: all
-  comments: all
-  endings: []
-  profile: false
-
-# Links to include in menu navigation
-links:
-  - title: home
-    url: /
-  - title: my posts
-    url: /posts
-  - title: series
-    url: /series
-  - title: tags
-    url: /tags
-  - title: about me
-    url: /about
-# projects in header index
-projects:
-
-# exclude my node related stuff
-exclude: ['package.json', 'src', 'node_modules']
-
-Encoding: UTF-8
-
-highlighter: rouge
+paginate: 3
+gems: [jekyll-paginate]
+paginate_path: "/page/:num"
