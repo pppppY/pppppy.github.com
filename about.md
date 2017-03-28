@@ -13,10 +13,10 @@ permalink: /about/
 ### 2. 关于PY
 ```java
 public class AboutMe{
-	private String name = "PY";
-	private String address = "ChangChun";
-	private String email = "pengyang813@foxmail.com";
-	private String profile = "宅";
+    private String name = "PY";
+    private String address = "ChangChun";
+    private String email = "pengyang813@foxmail.com";
+    private String profile = "宅";
 }
 ```
 
