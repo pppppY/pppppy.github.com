@@ -106,7 +106,7 @@ ThreadLocalMap是ThreadLocal中的一个静态内部类，它其实是一个Hash
 1. **使用了开放寻址法来解决Hash冲突**。
 2. **每个Entry的key是WeakReference，而value不是。因此需要额外的去清理因为GC导致key为null的Entry**。
 
-#### **2.3.1 域**
+### **2.3.1 域**
 
 ThreadLocalMap包含的域有以下一些，Entry类表示一个ThreadLocal变量，它继承了WeakReference，value就是ThreadLocal变量的值。
 ```java

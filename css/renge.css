@@ -1,3 +1,8 @@
+body {
+  font-family: Helvetica, Arial, "Hiragino Sans GB", "Microsoft Yahei", Microsoft YaHei, STHeiti, sans-serif;
+
+}
+
 .rengecenter {
   width: auto;
   display: table;
@@ -15,7 +20,16 @@
 .miaopasi {
   margin-top: 10px;
 }
-.post img{
+
+.post-content {
+  font-size: 18px;
+}
+.post-content img{
   width: 100%;
   margin-bottom: 5px;
+}
+.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 { 
+  margin-top: 1rem; 
+  margin-bottom: 1rem; 
+  color: #0c6296; 
 }
