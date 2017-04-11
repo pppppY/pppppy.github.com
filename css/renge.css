@@ -33,3 +33,6 @@ body {
   margin-bottom: 1rem; 
   color: #0c6296; 
 }
+.post-content strong {
+  color: #0c6296; 
+}
